@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">EjemploSemana7</string>
+    <string name="nombre">Indique su nombre</string>
+    <string name="enviar">Enviar</string>
+    <string name="saludo">Hola</string>
+    <string name="title_activity_main2">Main activity 2</string>
+    <string name="action_settings">Configuraciones</string>
+</resources>
