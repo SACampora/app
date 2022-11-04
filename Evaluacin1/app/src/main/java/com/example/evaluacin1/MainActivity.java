@@ -15,6 +15,8 @@ public class MainActivity extends AppCompatActivity {
      *Botón de entrar
      */
     Button entrar;
+    Button historia;
+
 
 
     @Override
@@ -22,6 +24,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         entrar=(Button)findViewById(R.id.boton);
+        historia=(Button)findViewById(R.id.boton2);
 
         entrar.setOnClickListener(new View.OnClickListener(){
 
@@ -36,12 +39,24 @@ public class MainActivity extends AppCompatActivity {
 
         } );
 
+        historia.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View g){
+
+                Intent a = new Intent( MainActivity.this, Info.class);
+                startActivity(a);
+
+            }
 
 
+
+
+        } );
 
     }
+
 
    public void Entraste(View view) {
         Toast.makeText(this, "entraste", Toast.LENGTH_SHORT).show();
     }
-}
+    }

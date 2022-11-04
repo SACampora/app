@@ -20,14 +20,6 @@
                 android:value="" />
         </activity>
         <activity
-            android:name=".Splash"
-            android:exported="false"
-            android:theme="@android:style/Theme.DeviceDefault.NoActionBar.Fullscreen">
-            <meta-data
-                android:name="android.app.lib_name"
-                android:value="" />
-        </activity>
-        <activity
             android:name=".Carrusel"
             android:exported="false">
             <meta-data
